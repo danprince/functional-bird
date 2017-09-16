@@ -1,0 +1,40 @@
+canvas {
+  background-image: url(background.png);
+  background-position: bottom left;
+  background-repeat: repeat-x;
+  background-color: #97beda;
+  margin: 3em auto;
+  display: block;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.bad-js {
+  font-family: 'Press Start 2P', monospace;
+  color: white;
+  background: #76428a;
+  padding: 20px;
+}
+
+.bad-js .warning {
+  display: block;
+}
+
+.bad-js canvas {
+  display: none;
+}
+
+.warning {
+  display: none;
+}
+
+.warning p {
+  line-height: 16pt;
+}
+
+.warning h1 {
+  font-size: 16pt;
+}
+
+.warning a {
+  color: #d0a8e0;
+}
